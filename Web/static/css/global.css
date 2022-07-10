@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+body {
+  display: block;
+  user-select: none;
+  min-height: 100%;
+  font-size: 16px;
+}
+
+hr {
+  margin: 0.5rem auto;
+  border-top: 1px solid #8f7878;
+}
+
+body:before {
+  /* background */
+  background-image: url("https://i.loli.net/2021/08/31/CTLqxk1gSnEO63b.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 16%;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0%;
+  right: 0%;
+  content: "";
+  z-index: -1;
+}
+
+/* header */
+
+header {
+  height: 12%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+
+.header-container a {
+  margin: auto 2%;
+}
+
+.header-container a .icon {
+  border-radius: 100%;
+}
+
+.header-container .web-title {
+  margin: 0 auto;
+  user-select: none;
+  font-size: 24px;
+  font-family: "Consolas", cursive;
+}
+
+.header-container .grow-bar {
+  flex-grow: 1;
+}
+
+.header-container .search-bar {
+  margin-right: 2%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 0.4rem 1.5rem;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.header-container .search-bar #sel {
+  background-color: aliceblue;
+  border: none;
+  font-size: 16px;
+  text-align-last: center;
+  padding: 2%;
+}
+
+.header-container .search-bar #sel:focus {
+  outline: none;
+}
+
+.header-container .search-bar #in {
+  margin-right: 1%;
+  padding: 0.2rem 1rem;
+  border: none;
+  background-color: aliceblue;
+  height: 2rem;
+  font-size: 16px;
+}
+
+.header-container .search-bar #in:focus {
+  outline: none;
+}
+
+.header-container .search-bar i {
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  height: 12%;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-container .copyright {
+  user-select: none;
+  text-align: center;
+  margin: 0 auto 0.3rem;
+  font-size: large;
+  /*font-style: italic;*/
+  font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif, serif;
+}
+
+.footer-container .copyright a {
+  user-select: none;
+  text-decoration: none;
+  color: rgb(45, 164, 233);
+}
+
+.footer-container .power {
+  margin: 0 auto;
+  user-select: none;
+  margin-top: 0.2rem;
+  color: gray;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* main */
+
+main {
+  min-height: calc(85vh);
+}
+
+#page-input {
+  font-size: 16px;
+  width: 4rem;
+  height: 2.1rem;
+  border: none;
+  text-align: center;
+  border-bottom: 1px black solid;
+}
+
+td {
+  padding: 0.3rem;
+}
+
+.puzzle-basic {
+  font-size: 12px;
+  width: 7rem;
+  text-align: center;
+}
+
+.puzzle-extra {
+  font-size: 12px;
+  width: 5rem;
+  text-align: center;
+}
+.puzzle-bonus {
+  font-size: 12px;
+  width: 5rem;
+  text-align: center;
+}
+
+.student-id {
+  text-align: center;
+  font-size: 12px;
+}
+
+.total-score {
+  text-align: center;
+  font-size: 12px;
+  width: 5rem;
+}
+
+.last-submit {
+  font-size: 12px;
+  width: 10rem;
+  text-align: center;
+}
+
+.mark {
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(143, 255, 165);
+}
+
+table thead {
+  background-color: blueviolet;
+}
+
+table thead td {
+  color: white;
+  font-weight: bold;
+  border: 1px black solid;
+}
+
+table tbody tr td {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.unmark {
+  text-align: center;
+  background-color: rgba(252, 248, 227);
+}

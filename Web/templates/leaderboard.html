@@ -1,0 +1,30 @@
+{% extends 'Base.html' %} {% load static %} {% block main %}
+<div class="notfound-container">
+    <table>
+        <thead>
+            <td class="student-id">ID</td>
+            <td class="total-score">Score</td>
+            <td class="last-submit">Last Submit</td>
+            <td class="puzzle-basic">Storyteller</td>
+            <td class="puzzle-basic">SCP-443</td>
+            <td class="puzzle-basic">Enigma</td>
+            <td class="puzzle-basic">Maze</td>
+            <td class="puzzle-basic">Memories</td>
+            <td class="puzzle-basic">.</td>
+            <td class="puzzle-extra">Sudoer</td>
+            <td class="puzzle-extra">TUNA</td>
+            <td class="puzzle-extra">Secret</td>
+            <td class="puzzle-extra">Homeless</td>
+            <td class="puzzle-bonus">M***</td>
+            <td class="puzzle-bonus">N*S*</td>
+            <td class="puzzle-bonus">D*R*</td>
+            <td class="puzzle-bonus">D*A*</td>
+            <td class="puzzle-bonus">K*N*</td>
+        </thead>
+        <tbody>
+            {{ html | safe }}
+        </tbody>
+    </table>
+</div>
+<link href="{% static 'css/404.css' %}" rel="stylesheet" />
+{% endblock main %}

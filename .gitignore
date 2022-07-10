@@ -1,0 +1,8 @@
+.vscode/
+.idea/
+*.xls
+*.xlsx
+__pycache__/
+build/
+assets/
+dist/
